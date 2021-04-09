@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Georgia', serif;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -10,22 +10,24 @@ html {
 
 img {
   width: 100%;
-  padding: 1rem;
+  padding: 0 1rem;
+  height: 16rem;
+  margin-bottom: .15rem;
 }
 
-h1 h2 {
-  font-family: 'Denk One', sans-serif;
+h1, h2 {
   color: #623b0c;
   padding: 0 1rem;
+  font-family: "Denk One", sans-serif;
 }
 
 h1 {
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 h2 {
-margin: 1rem 1.5rem;
-padding-bottom: 0;
+  margin: 1rem 0 1.5rem;
+  padding-bottom: 0;
 }
 
 body {
@@ -37,12 +39,12 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "banner banner"
-  "col1 col2"
-  "col1 col2";
+    "banner banner"
+    "col1 col2"
+    "col1 col2";
   gap: 1rem;
   padding: 1rem;
-  margin-top: -1rem;
+  margin-top: -.5rem;
 }
 
 li {
@@ -62,11 +64,11 @@ a {
   color: #fff;
   border-radius: 8px;
   text-decoration: none;
-  padding: .5rem 1rem .6rem;
+  padding: .5em 1em .6em;
   margin: 1rem;
 }
 
 p {
-  padding: .75rem;
+  padding: .5rem 1rem 0;
   margin-bottom: .5rem;
 }
